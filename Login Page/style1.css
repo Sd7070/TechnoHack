@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: black;
+    color:#9199a5;
+}
+
+form{
+    width:320px;
+    background-color: #111827;
+    padding:30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:12px;
+}
+
+main{
+    background: linear-gradient(-45deg,#e81cff 0%,#40c9ff 100%);
+    border-radius: 5px;
+    padding:5px;
+}
+
+header{
+    color:white;
+    text-align: center;
+    padding:10px;
+}
+
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   gap:5px; 
+}
+
+input{
+    padding:10px;
+    background-color: transparent;
+    border:none;
+    outline: none;
+    border:1px solid #374151;
+    border-radius: 5px;
+    color:white;
+}
+
+input:focus{
+    border-color: #c346bf;
+}
+.forgot a{
+    display: flex;
+    text-align:end;
+    justify-content: end;
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #c346bf;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.or{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+}
+
+.or span{
+    height:2px;
+    width:100%;
+    background-color:#374151 ;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+
+i{
+    font-size: 25px;
+    color: white;
+    cursor:pointer;
+} 
+
+/* 
+.social i{
+    filter:grayscale(100%);
+}
+
+.social i:hover{
+    filter: grayscale(0);
+} */
+
+.sign{
+    text-align: center;
+}
+
+.sign span{
+    color:white;
+}
